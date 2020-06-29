@@ -6,7 +6,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{93b1d52e-5bc3-47ef-bca8-ddd8d59c1788}</ProjectGuid>
+    <ProjectGuid>{93B1D52E-5BC3-47EF-BCA8-DDD8D59C1788}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <StartupObject>DatabaseTest1Template.My.MyApplication</StartupObject>
     <RootNamespace>DatabaseTest1Template</RootNamespace>
@@ -80,6 +80,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>

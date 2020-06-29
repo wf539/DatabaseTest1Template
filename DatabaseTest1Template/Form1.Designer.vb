@@ -1,5 +1,5 @@
 <Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class frmTestBed
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -19,9 +19,30 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.SuspendLayout()
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(100, 127)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 0
+        Me.Button1.Text = "Run Test"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'frmTestBed
+        '
+        Me.AcceptButton = Me.Button1
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.Text = "Form1"
+        Me.ClientSize = New System.Drawing.Size(284, 261)
+        Me.Controls.Add(Me.Button1)
+        Me.Name = "frmTestBed"
+        Me.Text = "Database1 Test bed"
+        Me.ResumeLayout(False)
+
     End Sub
 
+    Friend WithEvents Button1 As Button
 End Class
